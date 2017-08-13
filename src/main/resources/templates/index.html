@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Restaurant</title>
+</head>
+<body>
+
+<H1>Book</H1>
+<h2>JPA ORM Relational</h2>
+<br/><br/>
+
+Book List:
+<div th:each="b: ${books}">
+	<b th:text="${b.id}">ID - </b> <b th:text="${b.name}"></b>  <b th:text="${b?.bookDetail?.numberOfPages}"></b> <b th:text="${b?.bookCategory?.name}"></b>
+	<b th:each="p: ${b?.publishers}">
+		<b th:text="${p?.name}"></b>
+	</b>
+</div>
+
+
+</body>
+</html>

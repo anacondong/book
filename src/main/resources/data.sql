@@ -1,0 +1,9 @@
+USE book;
+
+SET FOREIGN_KEY_CHECKS=0; 
+
+TRUNCATE TABLE book;
+TRUNCATE TABLE book_category;
+TRUNCATE TABLE book_detail;
+TRUNCATE TABLE book_publisher;
+TRUNCATE TABLE publisher;
