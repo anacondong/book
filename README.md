@@ -16,7 +16,7 @@ password=
 ####
 
 #### How to run: 
-Download sources “https://github.com/anacondong/restaurant” unzip and run command  “mvn clean” and “mvn install” 
+Download sources “https://github.com/anacondong/book” unzip and run command  “mvn clean” and “mvn install” 
 then “cd target” and  
 run program micro service as 
 “java -jar book--SNAPSHOT.jar”
