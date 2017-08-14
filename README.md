@@ -4,10 +4,10 @@ Using Spring Boot >>> MVC,spring-Data,JPA,ORM
 JAVA 8
 Database >>> MySql
 
-#### Pre require
-Java 8
-Maven
-MY-SQL database connect with Database name : book
+#### Pre require <br/>
+Java 8<br/>
+Maven<br/>
+MY-SQL database connect with Database name : book<br/>
 
 Database Connection :
 datasource.url=jdbc:mysql://localhost:3306/book?useUnicode=true&characterEncoding=utf8
@@ -16,14 +16,16 @@ password=
 ####
 
 #### How to run: 
-Download sources “https://github.com/anacondong/book” unzip and run command  “mvn clean” and “mvn install” 
-then “cd target” and  
-run program micro service as 
-“java -jar book--SNAPSHOT.jar”
+Download sources “https://github.com/anacondong/book” unzip and 
+run command  “mvn <br/>
+clean” and “mvn install” <br/>
+then “cd target” and  <br/>
+run program micro service as <br/>
+“java -jar book--SNAPSHOT.jar”<br/>
 
 OR
 
-Just run as "mvn spring-boot:run"
+Just run as "mvn spring-boot:run"<br/>
 
 ####
 
@@ -31,17 +33,17 @@ Just run as "mvn spring-boot:run"
 Open browser url : http://localhost:8081/book/
 
 *****************************************************
-*** Relational 
-Book ---> OneToOne -----> BookDetail
-Book ---> OneToMany -----> BookCategory
-Book ---> ManyToMany -----> Publisher
+*** Relational <br/>
+Book ---> OneToOne -----> BookDetail<br/>
+Book ---> OneToMany -----> BookCategory<br/>
+Book ---> ManyToMany -----> Publisher<br/>
 
-** Create Table relational
-book
-book_category
-book_detail
-book_publisher
-publisher
+** Create Table relational<br/>
+book<br/>
+book_category<br/>
+book_detail<br/>
+book_publisher<br/>
+publisher<br/>
 *****************************************************
 
 Thanks and enjoy Coding
